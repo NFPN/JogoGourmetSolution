@@ -30,7 +30,7 @@ namespace JogoGourmet.Views
 
             if (currentNode.IsQuestion)
             {
-                var perguntaWindow = new QuestionWindow(currentNode.Value);
+                var perguntaWindow = new QuestionWindow($"O prato que você pensou é {currentNode.Value}?");
                 var result = perguntaWindow.ShowDialog();
 
                 if (result == true)
@@ -46,7 +46,10 @@ namespace JogoGourmet.Views
                 var result = perguntaPrato.ShowDialog();
 
                 if (result == true)
+                {
                     MessageBox.Show("Acertei de novo!", "Jogo Gourmet", MessageBoxButton.OK, MessageBoxImage.Information);
+                    currentNode = null;
+                }
                 else
                     ObterNovoPrato();
 

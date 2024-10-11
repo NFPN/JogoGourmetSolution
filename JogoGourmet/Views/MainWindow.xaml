@@ -1,7 +1,8 @@
 ﻿<Window x:Class="JogoGourmet.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Jogo Gourmet" Height="200" Width="400" ResizeMode="NoResize">
+        Title="Jogo Gourmet" Height="200" Width="400" ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <Image Source="Resources/question_mark.png" Width="50" Height="50" Margin="0,10" />
