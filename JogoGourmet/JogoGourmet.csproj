@@ -8,4 +8,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JogoGourmet.Logica\JogoGourmet.Logica.csproj" />
+  </ItemGroup>
+
 </Project>
