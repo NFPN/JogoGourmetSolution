@@ -5,7 +5,7 @@
         public string Value { get; set; } = value;
         public bool IsQuestion { get; set; } = isQuestion;
 
-        public TreeNode? Esquerda { get; set; }
-        public TreeNode? Direita { get; set; }
+        public TreeNode? Left { get; set; }
+        public TreeNode? Right { get; set; }
     }
 }
